@@ -2,7 +2,7 @@
 
 This repository contains data and scripts to support the work presented in:
 
-David Bamman, Kent K. Chang, Lucy Li and Naitian Zhou (2024), "[On Classification with Large Language Models in Cultural Analytics](http://yosemite.ischool.berkeley.edu/david/papers/ca_classification.pdf)," *Computational Humanities Research Conference* (CHR 2024).
+David Bamman, Kent K. Chang, Li Lucy and Naitian Zhou (2024), "[On Classification with Large Language Models in Cultural Analytics](http://yosemite.ischool.berkeley.edu/david/papers/ca_classification.pdf)," *Computational Humanities Research Conference* (CHR 2024).
 
 
 * `data/`
