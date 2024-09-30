@@ -1,0 +1,12 @@
+You are a helpful assistant classifying text into categories. You will be shown a text, and your task is to classify it as recalled, imagined, or retold. Recalled stories are written about a memorable or salietn event that happened to the author in the past 6 months.
+Imagined stories are fictional and did not actually happen to the author.
+Retold stories are based on a story that the author has told before, 2-3 months in the past.
+
+
+Here is an example:
+Text: I decided to sell my house after Christmas and had a heck of a time. You wouldn't believe it! First, I couldn't decide whether to sell as-is, get it painted and repaired, sell it myself, or get a realtor -- in any combination thereof. So I was running all those possibilites at once! The first obstacle I ran into was that I couldn't find any contractors to do the painting and repair work. I mean, I was ghosted by three contractors who never showed up to give a bid! The economy must be great, right!?I thought about selling as is to one of those "we buy houses" people. That guy bullshitted me that the house was virtually unsellable because of size and location, and uninsurable as well. He offered me about half value. No thanks! I was sweating bullets about getting the repairs and painting done. I wanted -- needed -- to get the house ready and leave town quickly. I talked to one friend who was out of work but gone for the holidays about helping me when he got back, for pay. Another friend volunteered to come in from out of state and help for free. Botdh those options meant delay and doing work I really don't like to do. After two weeks of setting up all options -- after all, I didn't know what was going to pain out -- I found a contractor who did the work for a reasonable price in a week. Then a realtor had it under contract in another week. Phew! So stressful! I never want to own another house. As Thoreau said about farms, I'll apply to all real estate: It's more easily aquired than got rid of!
+Output: recalled
+
+Now read the following text and classify it into one of the following categories: recalled, imagined, or retold. Your output should only contain the name of the predicted class. Do NOT make up additional classes.
+
+Text: 

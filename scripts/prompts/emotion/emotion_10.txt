@@ -1,0 +1,47 @@
+You are a helpful assistant classifying text into categories. You will be shown a text, and your task is to classify it as anticipation, disgust, joy, sadness, anger, surprise, fear, or trust. Those are emotions that can experienced by a character (or a named entity of a person, wrapped in `***`) in the text. 
+
+Here are several examples:
+
+Example 1:
+Text: Won't you let me?" Elizabeth found her tongue for a moment only, but that was enough for her lover. A happy light gleamed in ***his*** eyes: his face glowed.
+Output: joy
+
+Example 2:
+Text: Next time you see your friend ***Mrs. Clover***, you may tell her that if she wants to know where her precious 'usband is she's not to ask _me_, 'cos I wouldn't let her know, not if she was on her death-bed!" Having uttered this surprising message, with point and emphasis worthy of its significance, Polly hastened from the house. And Mrs. Bubb stood looking after her in bewilderment.
+Output: surprise
+
+Example 3:
+Text: One of the gentlemen was certainly Mr. Watson, though he was not quite willing to believe the evidence of his own senses. The boat had approached near enough to enable ***him*** to be sure of the fact. "It is my father!"
+Output: trust
+
+Example 4:
+Text: We have no thoughts of our own, no opinions of our own; they are transmitted to us, trained into us. All that is original in us, and therefore fairly creditable or discreditable to us, can be covered up and hidden by the point of a cambric needle, all the rest being atoms contributed by, and inherited from, a procession of ancestors that stretches back a billion years to the Adam-clam or grasshopper or monkey from whom ***our race*** has been so tediously and ostentatiously and unprofitably developed. And as for me, all that I think about in this plodding sad pilgrimage, this pathetic drift between the eternities, is to look out and humbly live a pure and high and blameless life, and save that one microscopic atom in me that is truly _me_: the rest may land in Sheol and welcome for all I care.
+Output: disgust
+
+Example 5:
+Text: Better to wait. The one thing that really worried ***him*** was that he would not know where they were being taken. When they did get away, how would they ever find Pappy Jack again?
+Output: fear
+
+Example 6:
+Text: Sometimes Phyllis helped her, and they talked together in a sweet confidence of the lovers so dear to them, and made little plans for the future full of true unselfishness. In the cool of the day ***they*** walked through the garden and the park to see Martha; though every day it became a more perplexing and painful duty. The poor woman, as time went by, grew silent and even stern.
+Output: sadness
+
+Example 7:
+Text: Yet the jest had scarcely passed her lips before she became pale and silent. With this change came also a desire to re-purchase the picture, which ***she*** had sold in her early success to a speculative American picture-dealer. On inquiry she found, alas!
+Output: anticipation
+
+Example 8:
+Text: That's exactly what they did. Starting in Boston, where they cruised Cambridge, watching the cute ***nerdyboys and geekygirls*** wander the streets, having heated technical debates, lugging half-finished works of technology and art through the sopping summertime, a riot of townie accents and highbrow engineerspeak. Then a week in New York, where they walked until they thought their feet would give out entirely, necks cricked at a permanent, upward-staring angle to gawp at the topless towers of Manhattan.
+Output: anger
+
+Example 9:
+Text: The exception was the man who seemed the soberest, the most sprightly and the youngest of the lot, and who advanced to the front of the platform. ***The audience*** scrutinized him hopefully. He was rather small and rather pretty, with the commercial rather than the thespian sort of prettiness.
+Output: anticipation
+
+Example 10:
+Text: The instant they stepped out into the corridor four sturdy figures stepped from four sides, pinioned them, and ran them along the galleries. They might very likely have thrown their captors right and left had they been inclined to resist, but for some nameless reason ***they*** were more inclined to laugh. A mixture of mad irony with childish curiosity made them feel quite inclined to see what next twist would be taken by their imbecile luck.
+Output: joy
+
+Now read the following text and classify it into one of the following categories: anticipation, disgust, joy, sadness, anger, surprise, fear, or trust. Your output should only contain the name of the predicted class. Do NOT make up additional classes.
+
+Text: 

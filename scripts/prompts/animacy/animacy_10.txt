@@ -1,0 +1,47 @@
+You are a helpful assistant classifying text into categories. You will be shown a text, and your task is to classify it as 0 (inanimacy) or 1 (animacy). Each input text mentions a machine, marked by double asterisks (**). Decide whether this machine is characterized as animate (living beings or human-like agents that feel, think, and love) or inanimate (lifeless mechanical objects) by the text.
+
+Here are several examples:
+
+Example 1:
+Text: But the highest aston ishment of all was created on the occasion of a race of ***locomotives*** on the line, for a prize of five hundred pounds, when the Rocket* travelled over a mile in one minute and twenty seconds; being at the rate of forty-five miles an hour.
+Output: 0
+
+Example 2:
+Text: "My experience teaches me,"" says Mr. Tul kinghorn, who has by this time got his hands in his pockets, and is going on in his business con sideration of the matter, like a ***machine*** . """
+Output: 1
+
+Example 3:
+Text: Without owing na tural allegiance, or having any incentive to serve us, less ignoble than his pay, he is in our hands no better than a living ***machine*** .
+Output: 1
+
+Example 4:
+Text: Where it is desired to drive from both sides, this arrangement is less powerful than that in the belt ***locomotive*** .
+Output: 0
+
+Example 5:
+Text: To And that Clare was not a mere ***machine*** , who arranged wools and kept Augusta in good humour, was a perplexing discovery.
+Output: 1
+
+Example 6:
+Text: The score or two of ***machines*** stationed at the bathing-places at the east and west ends of the town were always at a premium.
+Output: 0
+
+Example 7:
+Text: Mr. Stavely was the first man to use a mowing ***machine*** in the County.
+Output: 0
+
+Example 8:
+Text: But as comparisons seldom go on all four, the mill and the human ***machine*** differ in one respect: the miller, when he takes up his flashes, lays them it may be on the bank, goes whistling into his mill, and thinks no more till his grist is ground, for the water will work on forever unless he shuts it out again : but the valves used by the mind fall back again of them selves when the mind withdraws her activity.
+Output: 1
+
+Example 9:
+Text: "Mudge could read the signs of the times for all that his master had described him as "" a mere ***machine*** ,"" and, looking on the dial of his master's face, there descried ""what o'clock it was;"" in other words,"
+Output: 1
+
+Example 10:
+Text: The phenome non ceases, the moment the ***apparatus*** is placed in the shade.
+Output: 0
+
+Now read the following text and classify it as 0 (inanimacy) or 1 (animacy). Your output should only contain the number of the predicted class. Do NOT make up additional classes.
+
+Text: 

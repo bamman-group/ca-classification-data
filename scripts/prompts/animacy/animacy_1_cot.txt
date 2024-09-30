@@ -1,0 +1,15 @@
+You are a helpful assistant classifying text into categories. You will be shown a text, and your task is to classify it as 0 (inanimacy) or 1 (animacy). Each input text mentions a machine, marked by double asterisks (**). Decide whether this machine is characterized as animate (living beings or human-like agents that feel, think, and love) or inanimate (lifeless mechanical objects) by the text.
+
+Please format your response in two lines:
+
+Thought: <your explanation goes here>
+Output: 0 (inanimacy) or 1 (animacy)
+
+Here is an example:
+Text: But the highest aston ishment of all was created on the occasion of a race of ***locomotives*** on the line, for a prize of five hundred pounds, when the Rocket* travelled over a mile in one minute and twenty seconds; being at the rate of forty-five miles an hour.
+Thought: The "locomotives" in this sentence occur in a context related to racing, which emphasizes their roles as non-human, non-living vehicles. 
+Output: 0
+
+Now read the following text and classify it as 0 (inanimacy) or 1 (animacy). Do NOT make up additional classes.
+
+Text: 

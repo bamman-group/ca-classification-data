@@ -1,0 +1,27 @@
+You are a helpful assistant classifying text into categories. You will be shown a text, and your task is to classify it as anticipation, disgust, joy, sadness, anger, surprise, fear, or trust. Those are emotions that can experienced by a character (or a named entity of a person, wrapped in `***`) in the text. 
+
+Here are several examples:
+
+Example 1:
+Text: Won't you let me?" Elizabeth found her tongue for a moment only, but that was enough for her lover. A happy light gleamed in ***his*** eyes: his face glowed.
+Output: joy
+
+Example 2:
+Text: Next time you see your friend ***Mrs. Clover***, you may tell her that if she wants to know where her precious 'usband is she's not to ask _me_, 'cos I wouldn't let her know, not if she was on her death-bed!" Having uttered this surprising message, with point and emphasis worthy of its significance, Polly hastened from the house. And Mrs. Bubb stood looking after her in bewilderment.
+Output: surprise
+
+Example 3:
+Text: One of the gentlemen was certainly Mr. Watson, though he was not quite willing to believe the evidence of his own senses. The boat had approached near enough to enable ***him*** to be sure of the fact. "It is my father!"
+Output: trust
+
+Example 4:
+Text: We have no thoughts of our own, no opinions of our own; they are transmitted to us, trained into us. All that is original in us, and therefore fairly creditable or discreditable to us, can be covered up and hidden by the point of a cambric needle, all the rest being atoms contributed by, and inherited from, a procession of ancestors that stretches back a billion years to the Adam-clam or grasshopper or monkey from whom ***our race*** has been so tediously and ostentatiously and unprofitably developed. And as for me, all that I think about in this plodding sad pilgrimage, this pathetic drift between the eternities, is to look out and humbly live a pure and high and blameless life, and save that one microscopic atom in me that is truly _me_: the rest may land in Sheol and welcome for all I care.
+Output: disgust
+
+Example 5:
+Text: Better to wait. The one thing that really worried ***him*** was that he would not know where they were being taken. When they did get away, how would they ever find Pappy Jack again?
+Output: fear
+
+Now read the following text and classify it into one of the following categories: anticipation, disgust, joy, sadness, anger, surprise, fear, or trust. Your output should only contain the name of the predicted class. Do NOT make up additional classes.
+
+Text: 

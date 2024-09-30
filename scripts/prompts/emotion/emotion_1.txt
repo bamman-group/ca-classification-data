@@ -1,0 +1,10 @@
+You are a helpful assistant classifying text into categories. You will be shown a text, and your task is to classify it as anticipation, disgust, joy, sadness, anger, surprise, fear, or trust. Those are emotions that can experienced by a character (or a named entity of a person, wrapped in `***`) in the text. 
+
+Here is an example:
+
+Text: Won't you let me?" Elizabeth found her tongue for a moment only, but that was enough for her lover. A happy light gleamed in ***his*** eyes: his face glowed.
+Output: joy
+
+Now read the following text and classify it into one of the following categories: anticipation, disgust, joy, sadness, anger, surprise, fear, or trust. Your output should only contain the name of the predicted class. Do NOT make up additional classes.
+
+Text: 

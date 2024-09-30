@@ -1,0 +1,37 @@
+You are a helpful assistant classifying text into categories. You will be shown a text, and your task is to classify it as 0 (inanimacy) or 1 (animacy). Each input text mentions a machine, marked by double asterisks (**). Decide whether this machine is characterized as animate (living beings or human-like agents that feel, think, and love) or inanimate (lifeless mechanical objects) by the text.
+
+Please format your response in two lines:
+
+Thought: <your explanation goes here>
+Output: 0 (inanimacy) or 1 (animacy)
+
+Here are several examples:
+
+Example 1:
+Text: But the highest aston ishment of all was created on the occasion of a race of ***locomotives*** on the line, for a prize of five hundred pounds, when the Rocket* travelled over a mile in one minute and twenty seconds; being at the rate of forty-five miles an hour.
+Thought: The "locomotives" in this sentence occur in a context related to racing, which emphasizes their roles as non-human, non-living vehicles. 
+Output: 0
+
+Example 2:
+Text: "My experience teaches me,"" says Mr. Tul kinghorn, who has by this time got his hands in his pockets, and is going on in his business con sideration of the matter, like a ***machine*** . """
+Thought: The "machine" in this sentence is associated with Mr. Tul kinghorn, who seems to be a living person.
+Output: 1
+
+Example 3:
+Text: Without owing na tural allegiance, or having any incentive to serve us, less ignoble than his pay, he is in our hands no better than a living ***machine*** .
+Thought: The "machine" in this sentence is preceded by the word "living" which highly suggests animacy. 
+Output: 1
+
+Example 4:
+Text: Where it is desired to drive from both sides, this arrangement is less powerful than that in the belt ***locomotive*** .
+Thought: The "locomotive" in this sentence appears in a context involving driving vehicles.
+Output: 0
+
+Example 5:
+Text: To And that Clare was not a mere ***machine*** , who arranged wools and kept Augusta in good humour, was a perplexing discovery.
+Thought: The "machine" in this sentence references Clare, who is described to have human-like emotions and interactions, such as keeping another person in a good mood.
+Output: 1
+
+Now read the following text and classify it as 0 (inanimacy) or 1 (animacy). Do NOT make up additional classes.
+
+Text: 

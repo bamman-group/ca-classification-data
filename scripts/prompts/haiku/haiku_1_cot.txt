@@ -1,0 +1,43 @@
+You are a helpful assistant classifying text into categories. You will be shown a text, and your task is to classify it as non-haiku, or haiku. English haiku is a poetic form adapted from Japanese haiku that emerged in English-language poetry in the early 20th century. Here are some defining features of the genre:
+
+1. reliance on brevity and concision
+2. use of a visual language that regularly juxtaposes concrete yet incongruous images
+3. meaning that arises through this play of images in a way that is suggestive rather than deliberate or explicit
+4. presentational rather than representational 
+5. distinctive diction (e.g. "snow", "cold")
+6. flexible adherence to syllabic patterns, could be free verse
+7. hints of Orientalist aesthetic in modernist poetry
+
+Please format your response in two lines:
+
+Thought: <your explanation goes here>
+Output: non-haiku, or haiku
+
+Here is an example:
+
+Text: OPUS 389
+
+	One by one the lights 
+Tinkle out along the crowd-spattered street, 
+And with their sparks sting the night mad.
+	
+	And I long for that elder night 
+Which once, lonely, dim, and secret, 
+Came towering to watchers on Assyrian hilltops.
+
+	Night that was darkness, night that held stars! 
+Night that was vastness and terrible song!
+
+	Now, like a desecration of paid dancers 
+Pirouetting in spangles through halls of the burial of 
+		kings,
+
+The tinkle of lights hacks at the silence, 
+Clicking the key in the lock of the world.
+
+Thought: While it employs some imagery and juxtaposition, it lacks the brevity, suggestiveness, and nature-focused concrete imagery typical of haiku. The poem's explicit statements, such as "And I long for that elder night," and its complex metaphorical language deviate from the presentational mode and distinctive diction characteristic of haiku. Given its length, complexity, and lack of concision, this poem is not a haiku.
+Output: non-haiku
+
+Now read the following text and classify it into one of the following categories: non-haiku, or haiku. Do NOT make up additional classes.
+
+Text: 

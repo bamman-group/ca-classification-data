@@ -1,0 +1,47 @@
+You are a helpful assistant classifying text into categories. You will be shown a text, and your task is to classify it as POS, or NEG. Narrativity refers to the degree to which a text exhibits narrative qualities. Here, it is considered as a scalar, multidimensional property of texts that is characterized by the presence of focalized, concrete agents performing actions situated at a temporal and spatial distance from the narrator. Here are some defining features of **positive** and **negative** narrativity:
+
+**Positive Predictors**:
+1. significant presence of animate entities or actors
+2. significant presence of past tense verbs
+3. concrete descriptions of time and actions
+
+**Negative Predictors**:
+1. significant presence of (abstract) nouns
+2. significant presence of present participles
+3. explicit references to thoughts and feelings
+
+Please format your response in two lines:
+
+Thought: <your explanation goes here>
+Output: POS, or NEG
+
+Here are several examples:
+
+Example 1:
+Text: Yet the imagination which announces itself in the poem's bold opening lines is from the beginning functioning in an intellectually associative fashion and recalling some texts rather than others because of their pertinence to the poem's thematic concerns. That much is clear enough from Keats's invocation of the classical tradition as he first describes the heartache occasioned by the music welling about him. Critics often remark that Keats makes nothing of the Philomela myth in "Ode to a Nightingale." Yet the nightingale's song is so profoundly associated with Philomela, and with Aedon's lament for Itylus, as to provide a faint backdrop for Keats's poem, at least, by reminding readers that "the beautiful mythology of Greece" (Preface to Endymion) includes stories of birdsong commemorating a human pain it cannot transmute. The pain summoned by Keats's other opening glances at the classical tradition lies similarly with the issue of death.
+Thought: This passage deals with the intellectual and thematic content of a poem ("functioning in an intellectually associative fashion", "recalling some texts rather than others because of their pertinence to the poem's thematic concerns", etc.). It lacks concrete actions or events, and it focuses instead on abstract literary analysis and references to a major author ("Keats") and classical mythology. Overall, this reads more like a piece of literary criticism. The absence of animate agents performing actions and the heavy use of abstract nouns support the label of NEG narrativity. This is an example of negative narrativity (NEG).
+Output: NEG
+
+Example 2:
+Text: First she had to let the lump that was crowding her throat begin to dissolve, otherwise she knew that silent tears would begin to run down her face. She could only hope that Wilson would mistake her silence for shyness. Apparently he did. “Why don’t we take a look and see what you’ve come up with?” he suggested, gently. Zan swallowed hard, then managed to speak in an even tone.
+Thought: This passage is focused on concrete actions and emotions experienced by the characters involved, such as "let the lump that was crowding her throat begin to dissolve" and "silent tears would begin to run down her face." It describes the protagonist's internal struggle and physical reactions, as well as the interaction with another character, Wilson. These elements of action, emotion, and interaction contribute to a high degree of narrativity. This is an example of positive narrativity (POS).
+Output: POS
+
+Example 3:
+Text: Away he went. There was something fascinating to her in him. For the moment he was nothing but a piece of swinging stuff; not a particle of him that did not swing. She could never lose herself so, nor could her brothers. It roused a warmth in her.
+Thought: This passage describes a character's actions and the emotional response they evoke in another character, as seen in such phrases as "Away he went" and "not a particle of him that did not swing". It highlights the character's movement and the fascination and warmth it stirs in the observer. These concrete actions and emotional responses are indicative of positive narrativity. As such, this is an example of positive narrativity (POS).
+Output: POS
+
+Example 4:
+Text: With Fox and his two hundred reinforcements watching helplessly, South Carolina began bombarding Fort Sumter with heated cannonballs and Fort Moultrie with shots from forty-three guns and mortars. Thirty-six hours later, Major Anderson and his garrison at Sumter surrendered. The bombardment of Fort Sumter signified the beginning of the Civil War, though many people hoped reconciliation was still possible. Over the next few weeks, newspapers and politicians from both parties, including Seward, pressed Lincoln not to engage Southern forces. But Lincoln knew the die had been cast.
+Thought: This passage describes specific actions and events, such as "South Carolina began bombarding Fort Sumter" and "Major Anderson and his garrison at Sumter surrendered." It also includes a clear temporal sequence of events and the responses of various parties. These elements of concrete actions, historical events, and the unfolding sequence contribute to positive narrativity. This is an example of positive narrativity (POS).
+Output: POS
+
+Example 5:
+Text: Aunt Geoffrey seems to like to do things in her own way." "It must be very bad indeed if she cannot venture to wait for him!" said Mrs. Frederick Langford, much alarmed. "And never to tell you!" said Henrietta.
+Thought: This passage is focused on the dialogue and emotional reactions of the characters (e.g. "It must be very bad indeed", "much alarmed", etc.). It describes the characters' concerns and interactions, which are indicative of a narrative involving personal dynamics and responses. These elements of direct speech and emotional reactions all signal positive narrativity. This is an example of positive narrativity (POS).
+Output: POS
+
+Now read the following text and classify it into one of the following categories: POS, or NEG. Do NOT make up additional classes.
+
+Text: 

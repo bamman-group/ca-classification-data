@@ -1,0 +1,18 @@
+You are a helpful assistant classifying text into categories. You will be shown a text, and your task is to infer the passage of narrative time in the text, expressed in minutes. 
+Express how many minutes have passed in the text. If there are no explicit references to time in the text, infer how much time passed based on the events described. Descriptions can imply the passage of time by mentioning earlier history of people or buildings. References to the past or future in spoken dialogue should not count as time that passed.
+Express your answer in the number of minutes. Do not say 0 or N/A.
+
+
+Please format your response in two lines:
+
+Thought: <your explanation goes here>
+Output: number of minutes
+
+Here is an example:
+Text: “This the way to Fernly Park, mister?” asked the stranger in a hoarse voice.  I looked at him. He was wearing a hat pulled down over his eyes, and his coat collar turned up. I could see little or nothing of his face, but he seemed a young fellow. The voice was rough and uneducated.  “These are the lodge gates here,” I said.  “Thank you, mister.” He paused, and then added, quite unnecessarily, “I’m a stranger in these parts, you see.”  He went on, passing through the gates as I turned to look after him.  The odd thing was that his voice reminded me of someone’s voice that I knew, but whose it was I could not think.  Ten minutes later I was at home once more. Caroline was full of curiosity to know why I had returned so early. I had to make up a slightly fictitious account of the evening in order to satisfy her, and I had an uneasy feeling that she saw through the transparent device.  At ten o’clock I rose, yawned, and suggested bed. Caroline acquiesced.  It was Friday night, and on Friday night I wind the clocks. I did it as usual, whilst Caroline satisfied herself that the servants had locked up the kitchen properly.  It was a quarter past ten as we went up the stairs. I had just reached the top when the telephone rang in the hall below.
+Thought: The narrator describes the initial set of events as occurring in the evening. Because Caroline inquires about how early the narrator returns, we can infer that the events took place in the early evening Some amount of time passes before 10 o'clock at night, when the narrator winds the clocks. The segment of text ends at 10:15 at night. Thus, we can infer that the segment spans about 3 hours, from roughly 7 in the evening to 10 at night. 3 hours is 180 minutes.
+Output: 180
+
+Now read the following text and state the number of minutes elapsed in this scene. Do NOT make up additional classes.
+
+Text: 

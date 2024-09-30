@@ -1,0 +1,123 @@
+You are a helpful assistant classifying text into categories. You will be shown a text, and your task is to classify it as anticipation, disgust, joy, sadness, anger, surprise, fear, or trust. Those are emotions that can experienced by a character (or a named entity of a person, wrapped in `***`) in the text. 
+
+Please format your response in two lines:
+
+Thought: <your explanation goes here>
+Output: anticipation, disgust, joy, sadness, anger, surprise, fear, or trust
+
+Here are several examples:
+
+Example 1:
+Text: Won't you let me?" Elizabeth found her tongue for a moment only, but that was enough for her lover. A happy light gleamed in ***his*** eyes: his face glowed.
+Thought: In this passage, Elizabeth's brief moment of speech causes a "happy light" to gleam in his eyes. The "glow" on his face further indicates his joy. For those reasons, "he" is experiencing joy.
+Output: joy
+
+Example 2:
+Text: Next time you see your friend ***Mrs. Clover***, you may tell her that if she wants to know where her precious 'usband is she's not to ask _me_, 'cos I wouldn't let her know, not if she was on her death-bed!" Having uttered this surprising message, with point and emphasis worthy of its significance, Polly hastened from the house. And Mrs. Bubb stood looking after her in bewilderment.
+Thought: In this passage, Polly delivers an unexpected message about Mrs. Clover's husband. The dramatic tone of "I wouldn't let her know [. . . ] not if she was on her death-bed!" would be shocking for Mrs. Clover. For those reasons, Mrs. Clover might be experiencing surprise.
+Output: surprise
+
+Example 3:
+Text: One of the gentlemen was certainly Mr. Watson, though he was not quite willing to believe the evidence of his own senses. The boat had approached near enough to enable ***him*** to be sure of the fact. "It is my father!"
+Thought: In this passage, one of the gentlemen is recognized by the narrator as Mr. Watson, although he is "willing to believe". As the boat comes closer, he becomes certain: "It is my father!" For those reasons, he is experiencing trust.
+Output: trust
+
+Example 4:
+Text: We have no thoughts of our own, no opinions of our own; they are transmitted to us, trained into us. All that is original in us, and therefore fairly creditable or discreditable to us, can be covered up and hidden by the point of a cambric needle, all the rest being atoms contributed by, and inherited from, a procession of ancestors that stretches back a billion years to the Adam-clam or grasshopper or monkey from whom ***our race*** has been so tediously and ostentatiously and unprofitably developed. And as for me, all that I think about in this plodding sad pilgrimage, this pathetic drift between the eternities, is to look out and humbly live a pure and high and blameless life, and save that one microscopic atom in me that is truly _me_: the rest may land in Sheol and welcome for all I care.
+Thought: In this passage, the speaker expresses disdain for the lack of originality and autonomy in "our race". The reference to "ancestors", followed by the dismissive tone towards the evolutionary process: "tediously and ostentatiously and unprofitably developed". For those reasons, the emotion associated with "our race" is most likely disgust.
+Output: disgust
+
+Example 5:
+Text: Better to wait. The one thing that really worried ***him*** was that he would not know where they were being taken. When they did get away, how would they ever find Pappy Jack again?
+Thought: In this passage, the speaker ("he") is worred about not knowing "where they are being taken". This anxiety about how they would find Pappy Jack again exudes a sense of despair and helplessness. For those reasons, he is experiencing fear.
+Output: fear
+
+Example 6:
+Text: Sometimes Phyllis helped her, and they talked together in a sweet confidence of the lovers so dear to them, and made little plans for the future full of true unselfishness. In the cool of the day ***they*** walked through the garden and the park to see Martha; though every day it became a more perplexing and painful duty. The poor woman, as time went by, grew silent and even stern.
+Thought: In this passage, we learn Phyllis and the narrator were once engaged in intimate conversations, and then we see a shift of tone: "made little plans for the future" and "the cool of the day". The latter half of the passage is characterized by sorrows: "perplexing and painful duty".  For those reasons, they are experiencing sadness.
+Output: sadness
+
+Example 7:
+Text: Yet the jest had scarcely passed her lips before she became pale and silent. With this change came also a desire to re-purchase the picture, which ***she*** had sold in her early success to a speculative American picture-dealer. On inquiry she found, alas!
+Thought: In this passage, after making a jest, she becomes "pale and silent" and feels a sudden desire to re-purchase a picture she'd sold. Her inquiry about the picture's availability shows her eagerness and expectation. For those reasons, she is experiencing anticipation.
+Output: anticipation
+
+Example 8:
+Text: That's exactly what they did. Starting in Boston, where they cruised Cambridge, watching the cute ***nerdyboys and geekygirls*** wander the streets, having heated technical debates, lugging half-finished works of technology and art through the sopping summertime, a riot of townie accents and highbrow engineerspeak. Then a week in New York, where they walked until they thought their feet would give out entirely, necks cricked at a permanent, upward-staring angle to gawp at the topless towers of Manhattan.
+Thought: In this passage, nerdyboys and geekygirls are wandering through Cambridge, engaging in technical debates, and carrying their works in summer. Given the descriptions of their activities: "heated [. . .] debates", "a riot of townie accents", etc., nerdyboys and geekygirls are likely experiencing anger.
+Output: anger
+
+Example 9:
+Text: The exception was the man who seemed the soberest, the most sprightly and the youngest of the lot, and who advanced to the front of the platform. ***The audience*** scrutinized him hopefully. He was rather small and rather pretty, with the commercial rather than the thespian sort of prettiness.
+Thought: In this passage, the audience "scrutinizes" the man described as "soberest" and "most sprightly". The scrutiny and the detailed observation of his appearance as he "advanced to the front of the platform" suggest an eager sense of expectation. For those reasons, the audience is experiencing anticipation.
+Output: anticipation
+
+Example 10:
+Text: The instant they stepped out into the corridor four sturdy figures stepped from four sides, pinioned them, and ran them along the galleries. They might very likely have thrown their captors right and left had they been inclined to resist, but for some nameless reason ***they*** were more inclined to laugh. A mixture of mad irony with childish curiosity made them feel quite inclined to see what next twist would be taken by their imbecile luck.
+Thought: In this passage, despite being "pinioned", this "they" are "more inclined to laugh rather than resist". The combination of "mad irony" and "childish curiosity" suggests an You are a helpful assistant classifying text into categories. You will be shown a text, and your task is to classify it as anticipation, disgust, joy, sadness, anger, surprise, fear, or trust. Those are emotions that can experienced by a character (or a named entity of a person, wrapped in `***`) in the text. 
+
+Please format your response in two lines:
+
+Thought: <your explanation goes here>
+Output: anticipation, disgust, joy, sadness, anger, surprise, fear, or trust
+
+Here are several examples:
+
+Example 1:
+Text: Next time you see your friend ***Mrs. Clover***, you may tell her that if she wants to know where her precious 'usband is she's not to ask _me_, 'cos I wouldn't let her know, not if she was on her death-bed!" Having uttered this surprising message, with point and emphasis worthy of its significance, Polly hastened from the house. And Mrs. Bubb stood looking after her in bewilderment.
+Thought: In this passage, Polly delivers an unexpected message about Mrs. Clover's husband. The dramatic tone of "I wouldn't let her know [. . . ] not if she was on her death-bed!" would be shocking for Mrs. Clover. For those reasons, Mrs. Clover might be experiencing surprise.
+Output: surprise
+
+Example 2:
+Text: Won't you let me?" Elizabeth found her tongue for a moment only, but that was enough for her lover. A happy light gleamed in ***his*** eyes: his face glowed.
+Thought: In this passage, Elizabeth's brief moment of speech causes a "happy light" to gleam in his eyes. The "glow" on his face further indicates his joy. For those reasons, "he" is experiencing joy.
+Output: joy
+
+Example 3:
+Text: One of the gentlemen was certainly Mr. Watson, though he was not quite willing to believe the evidence of his own senses. The boat had approached near enough to enable ***him*** to be sure of the fact. "It is my father!"
+Thought: In this passage, one of the gentlemen is recognized by the narrator as Mr. Watson, although he is "willing to believe". As the boat comes closer, he becomes certain: "It is my father!" For those reasons, he is experiencing trust.
+Output: trust
+
+Example 4:
+Text: We have no thoughts of our own, no opinions of our own; they are transmitted to us, trained into us. All that is original in us, and therefore fairly creditable or discreditable to us, can be covered up and hidden by the point of a cambric needle, all the rest being atoms contributed by, and inherited from, a procession of ancestors that stretches back a billion years to the Adam-clam or grasshopper or monkey from whom ***our race*** has been so tediously and ostentatiously and unprofitably developed. And as for me, all that I think about in this plodding sad pilgrimage, this pathetic drift between the eternities, is to look out and humbly live a pure and high and blameless life, and save that one microscopic atom in me that is truly _me_: the rest may land in Sheol and welcome for all I care.
+Thought: In this passage, the speaker expresses disdain for the lack of originality and autonomy in "our race". The reference to "ancestors", followed by the dismissive tone towards the evolutionary process: "tediously and ostentatiously and unprofitably developed". For those reasons, the emotion associated with "our race" is most likely disgust.
+Output: disgust
+
+Example 5:
+Text: Better to wait. The one thing that really worried ***him*** was that he would not know where they were being taken. When they did get away, how would they ever find Pappy Jack again?
+Thought: In this passage, the speaker ("he") is worred about not knowing "where they are being taken". This anxiety about how they would find Pappy Jack again exudes a sense of despair and helplessness. For those reasons, he is experiencing fear.
+Output: fear
+
+Example 6:
+Text: Sometimes Phyllis helped her, and they talked together in a sweet confidence of the lovers so dear to them, and made little plans for the future full of true unselfishness. In the cool of the day ***they*** walked through the garden and the park to see Martha; though every day it became a more perplexing and painful duty. The poor woman, as time went by, grew silent and even stern.
+Thought: In this passage, we learn Phyllis and the narrator were once engaged in intimate conversations, and then we see a shift of tone: "made little plans for the future" and "the cool of the day". The latter half of the passage is characterized by sorrows: "perplexing and painful duty".  For those reasons, they are experiencing sadness.
+Output: sadness
+
+Example 7:
+Text: Yet the jest had scarcely passed her lips before she became pale and silent. With this change came also a desire to re-purchase the picture, which ***she*** had sold in her early success to a speculative American picture-dealer. On inquiry she found, alas!
+Thought: In this passage, after making a jest, she becomes "pale and silent" and feels a sudden desire to re-purchase a picture she'd sold. Her inquiry about the picture's availability shows her eagerness and expectation. For those reasons, she is experiencing anticipation.
+Output: anticipation
+
+Example 8:
+Text: That's exactly what they did. Starting in Boston, where they cruised Cambridge, watching the cute ***nerdyboys and geekygirls*** wander the streets, having heated technical debates, lugging half-finished works of technology and art through the sopping summertime, a riot of townie accents and highbrow engineerspeak. Then a week in New York, where they walked until they thought their feet would give out entirely, necks cricked at a permanent, upward-staring angle to gawp at the topless towers of Manhattan.
+Thought: In this passage, nerdyboys and geekygirls are wandering through Cambridge, engaging in technical debates, and carrying their works in summer. Given the descriptions of their activities: "heated [. . .] debates", "a riot of townie accents", etc., nerdyboys and geekygirls are likely experiencing anger.
+Output: anger
+
+Example 9:
+Text: The exception was the man who seemed the soberest, the most sprightly and the youngest of the lot, and who advanced to the front of the platform. ***The audience*** scrutinized him hopefully. He was rather small and rather pretty, with the commercial rather than the thespian sort of prettiness.
+Thought: In this passage, the audience "scrutinizes" the man described as "soberest" and "most sprightly". The scrutiny and the detailed observation of his appearance as he "advanced to the front of the platform" suggest an eager sense of expectation. For those reasons, the audience is experiencing anticipation.
+Output: anticipation
+
+Example 10:
+Text: The instant they stepped out into the corridor four sturdy figures stepped from four sides, pinioned them, and ran them along the galleries. They might very likely have thrown their captors right and left had they been inclined to resist, but for some nameless reason ***they*** were more inclined to laugh. A mixture of mad irony with childish curiosity made them feel quite inclined to see what next twist would be taken by their imbecile luck.
+Thought: In this passage, despite being "pinioned", this "they" are "more inclined to laugh rather than resist". The combination of "mad irony" and "childish curiosity" suggests an eeriely amused attitude towards their situation. For those reasons, they may be experiencing joy.
+Output: joy
+
+Now read the following text and classify it into one of the following categories: anticipation, disgust, joy, sadness, anger, surprise, fear, or trust. Do NOT make up additional classes.
+
+Text:  amused attitude towards their situation. For those reasons, they may be experiencing joy.
+Output: joy
+
+Now read the following text and classify it into one of the following categories: anticipation, disgust, joy, sadness, anger, surprise, fear, or trust. Do NOT make up additional classes.
+
+Text: 

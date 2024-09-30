@@ -1,0 +1,191 @@
+You are a helpful assistant classifying text into categories. You will be shown a text, and your task is to classify it as non-haiku, or haiku. English haiku is a poetic form adapted from Japanese haiku that emerged in English-language poetry in the early 20th century. Here are some defining features of the genre:
+
+1. reliance on brevity and concision
+2. use of a visual language that regularly juxtaposes concrete yet incongruous images
+3. meaning that arises through this play of images in a way that is suggestive rather than deliberate or explicit
+4. presentational rather than representational 
+5. distinctive diction (e.g. "snow", "cold")
+6. flexible adherence to syllabic patterns, could be free verse
+7. hints of Orientalist aesthetic in modernist poetry
+
+Here are several examples:
+
+Example 1:
+Text: OPUS 389
+
+	One by one the lights 
+Tinkle out along the crowd-spattered street, 
+And with their sparks sting the night mad.
+	
+	And I long for that elder night 
+Which once, lonely, dim, and secret, 
+Came towering to watchers on Assyrian hilltops.
+
+	Night that was darkness, night that held stars! 
+Night that was vastness and terrible song!
+
+	Now, like a desecration of paid dancers 
+Pirouetting in spangles through halls of the burial of 
+		kings,
+
+The tinkle of lights hacks at the silence, 
+Clicking the key in the lock of the world.
+
+Output: non-haiku
+
+Example 2:
+Text: TO WINKY
+
+Cat,
+Cat,
+What are you?
+Son, through a thousand generations of
+	the black leopards
+Padding among the sprigs of young
+	bamboo;
+Descendant of many removals from the 
+	white panthers
+Who crouch by night under the loquat-
+	trees?
+You crouch under the orange begonias,
+And your eyes are green
+With the violence of murder,
+Or half-closed and stealthy
+Like your sheathed claws.
+Slowly, slowly,
+You rise and stretch 
+In a glossiness of beautiful curves,
+Of muscles fluctuating under black,
+	glazed hair.
+
+Cat, 
+You are a strange creature.
+You sit on your haunches
+And yawn,
+But when you leap
+I can almost hear the whine
+Of a released string,
+And I look to see its flaccid shaking
+In the place whence you sprang.
+
+You carry your tail as a banner,
+Slowly it passes my chair,
+But when I look for you, you are on the
+	table
+Moving easily among the most delicate
+	porcelains.
+Your food is a matter of importance
+And you are insistent on having
+Your wants attended to,
+And yet you will eat a bird and its
+	feathers
+Apparently without injury.
+
+In the night, I hear you crying,
+But if I try to find you
+There are only the shadows of rhododen-
+	dron leaves
+Brushing the ground.
+When you come in out of the rain,
+All wet with your tail full of burrs,
+You fawn upon me in coils and subtleties;
+But once you are dry
+You leave me with a gesture of incon-	
+	ceivable impudence,
+Conveyed by the vanishing quirk of your tail
+As you slide through the open door.
+
+You walk as a king scorning his subjects;
+You flirt with me as a concubine in robes
+	of silk.
+Cat,
+I am afraid of your poisonous beauty,
+I have seen you torturing a mouse.
+Yet when you lie purring in my lap
+I forget everything but how soft you are,
+And it is only when I feel your claws
+	open upon my hand
+That I remember - 
+Remember a puma lying out on a branch
+	above my head
+Years ago.
+
+Shall I choke you, Cat,
+Or kiss you?
+Really I do not know.
+Output: haiku
+
+Example 3:
+Text: CARBON-DIOXIDE
+
+O master Americans,
+so supreme over this and all ages
+in lawfully bridging the chasm
+between any two sums with the process,
+indigenous and doubly divine,
+of addition, subtraction, multiplication, division - 
+I ask you, how is it, 
+that the tiddle-diddle-doo breathed into yonder flute
+by the trained carbon-dioxide
+of yonder wandering tatterdemalion - 
+how is it that,
+whereas you sanction the barter of
+hens for gold, pigs for gold, ducks for gold,
+by tossing your clinkety-clink
+to the merest squawk-squawk, oint-oint, quack-quack - 
+that this tiddle-diddle-doo,
+while it dosen't say in words
+audible to the ear or legible to the eye - 
+'will you drop me a penny for beauty?' - 
+how is it, I say,
+that that huckster of the flute,
+who needs but an addition of oxygen
+equal to a subtraction of carbon-dioxide,
+lest he fall and beauty fall with him,
+is thin as a worm and white as a shell?‚Äî
+have you no process for pleasure,
+or is pleasure unlawful among you?
+
+Output: non-haiku
+
+Example 4:
+Text: AN INCIDENT
+
+William Blake and Catherine Bourchier
+	were married in the newly rebuilt
+	Church of Battersea where the win-
+	dows were beautifully painted to imi-
+	tate real stained glass.
+Pigments or crystal, what did it matter - 
+	when Jehovah sat on a cloud of curled
+	fire over the door-way,
+And angels with silver trumpets played
+	Hosannas under the wooden groins of
+	the peaked roof!
+William and Catherine Blake left the 
+	painted windows behind in the newly
+	rebuilt Church of Battersea,
+But God and the angels went out with
+	them;
+And the angels played on their trumpets
+	under the plaster ceiling of their 
+	lodging,
+Morning, and evening, and morning,
+	forty-five round years.
+
+Has the paint faded in the windows of
+	Battersea Church, I wonder?
+Output: haiku
+
+Example 5:
+Text: THE POND
+
+Cold, wet leaves
+Floating on moss-coloured water,
+And the croaking of frogs - 
+Cracked bell-notes in the twilight.
+Output: haiku
+
+Now read the following text and classify it into one of the following categories: non-haiku, or haiku. Your output should only contain the name of the predicted class. Do NOT make up additional classes.
+
+Text: 

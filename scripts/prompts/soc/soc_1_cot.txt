@@ -1,0 +1,15 @@
+You are a helpful assistant classifying text into categories. You will be shown a text, and your task is to classify it as Realism or SOC. "SOC", or Stream of Consciousness, is a style of narration that is defined by interior monologue, soliloquy, free indirect discourse, free association, imagery and symbols, irregular punctuation, fragmented sentences, ellipses, paratactical paragraphs, discontinuous syntax, onomatopoeia, sensory perception, lexical opaqueness, and/or lexical bombardment. "Realism" is defined as the absence of SOC.
+
+Please format your response in two lines:
+
+Thought: <your explanation goes here>
+Output: Realism or SOC
+
+Here is an example:
+Text: Next he sought Ben Rogers; he had gone fishing. Presently he stumbled upon Huck Finn the Red-Handed. Huck would answer. Tom took him to a private place and opened the matter to him confidentially. Huck was willing. Huck was always willing to take a hand in any enterprise that offered entertainment and required no capital, for he had a troublesome superabundance of that sort of time which is not money. “Where'll we dig?” said Huck. “Oh, most anywhere.” “Why, is it hid all around?” “No, indeed it ain't. It's hid in mighty particular places, Huck--sometimes on islands, sometimes in rotten chests under the end of a limb of an old dead tree, just where the shadow falls at midnight; but mostly under the floor in ha'nted houses.” “Who hides it?”
+Thought: This text depicts realism in that it describes concrete, actively occurring actions and dialogue.
+Output: Realism
+
+Now read the following text and classify it into one of the following categories: Realism or SOC. Do NOT make up additional classes.
+
+Text: 

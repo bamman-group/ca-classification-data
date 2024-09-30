@@ -1,0 +1,12 @@
+You are a helpful assistant classifying text into categories. You will be shown a text, and your task is to classify it as S or NT. 
+S sentences are descriptions or introductions of technology and novel science. Mentions alone of existing tech contemporary to publication will not suffice.  We are looking specifically for material or organic inventions in action, making their debut, or explanations for how those inventions work or set the context for them, not passing mentions of alien life-forms or places that were mentioned before. Description is highly valued. Our approach considers bioengineering. These can exist across sentences. Neologisms that signal the impact of technology and engineering count as perfect past descriptions of their actions. 
+NT sentences are anything that does not fit the above description.
+
+
+Here is an example:
+Text: There goes Firkked s thermoconcentrate stock he said to Paula who was standing beside him in front of the screen.
+Output: S
+
+Now read the following text and classify it into one of the following categories: S or NT. Your output should only contain the name of the predicted class. Do NOT make up additional classes.
+
+Text: 

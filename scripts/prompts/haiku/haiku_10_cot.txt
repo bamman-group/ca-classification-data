@@ -1,0 +1,338 @@
+You are a helpful assistant classifying text into categories. You will be shown a text, and your task is to classify it as non-haiku, or haiku. English haiku is a poetic form adapted from Japanese haiku that emerged in English-language poetry in the early 20th century. Here are some defining features of the genre:
+
+1. reliance on brevity and concision
+2. use of a visual language that regularly juxtaposes concrete yet incongruous images
+3. meaning that arises through this play of images in a way that is suggestive rather than deliberate or explicit
+4. presentational rather than representational 
+5. distinctive diction (e.g. "snow", "cold")
+6. flexible adherence to syllabic patterns, could be free verse
+7. hints of Orientalist aesthetic in modernist poetry
+
+Please format your response in two lines:
+
+Thought: <your explanation goes here>
+Output: non-haiku, or haiku
+
+Here are several examples:
+
+Example 1:
+Text: OPUS 389
+
+	One by one the lights 
+Tinkle out along the crowd-spattered street, 
+And with their sparks sting the night mad.
+	
+	And I long for that elder night 
+Which once, lonely, dim, and secret, 
+Came towering to watchers on Assyrian hilltops.
+
+	Night that was darkness, night that held stars! 
+Night that was vastness and terrible song!
+
+	Now, like a desecration of paid dancers 
+Pirouetting in spangles through halls of the burial of 
+		kings,
+
+The tinkle of lights hacks at the silence, 
+Clicking the key in the lock of the world.
+
+Thought: While it employs some imagery and juxtaposition, it lacks the brevity, suggestiveness, and nature-focused concrete imagery typical of haiku. The poem's explicit statements, such as "And I long for that elder night," and its complex metaphorical language deviate from the presentational mode and distinctive diction characteristic of haiku. Given its length, complexity, and lack of concision, this poem is not a haiku.
+Output: non-haiku
+
+Example 2:
+Text: TO WINKY
+
+Cat,
+Cat,
+What are you?
+Son, through a thousand generations of
+	the black leopards
+Padding among the sprigs of young
+	bamboo;
+Descendant of many removals from the 
+	white panthers
+Who crouch by night under the loquat-
+	trees?
+You crouch under the orange begonias,
+And your eyes are green
+With the violence of murder,
+Or half-closed and stealthy
+Like your sheathed claws.
+Slowly, slowly,
+You rise and stretch 
+In a glossiness of beautiful curves,
+Of muscles fluctuating under black,
+	glazed hair.
+
+Cat, 
+You are a strange creature.
+You sit on your haunches
+And yawn,
+But when you leap
+I can almost hear the whine
+Of a released string,
+And I look to see its flaccid shaking
+In the place whence you sprang.
+
+You carry your tail as a banner,
+Slowly it passes my chair,
+But when I look for you, you are on the
+	table
+Moving easily among the most delicate
+	porcelains.
+Your food is a matter of importance
+And you are insistent on having
+Your wants attended to,
+And yet you will eat a bird and its
+	feathers
+Apparently without injury.
+
+In the night, I hear you crying,
+But if I try to find you
+There are only the shadows of rhododen-
+	dron leaves
+Brushing the ground.
+When you come in out of the rain,
+All wet with your tail full of burrs,
+You fawn upon me in coils and subtleties;
+But once you are dry
+You leave me with a gesture of incon-	
+	ceivable impudence,
+Conveyed by the vanishing quirk of your tail
+As you slide through the open door.
+
+You walk as a king scorning his subjects;
+You flirt with me as a concubine in robes
+	of silk.
+Cat,
+I am afraid of your poisonous beauty,
+I have seen you torturing a mouse.
+Yet when you lie purring in my lap
+I forget everything but how soft you are,
+And it is only when I feel your claws
+	open upon my hand
+That I remember - 
+Remember a puma lying out on a branch
+	above my head
+Years ago.
+
+Shall I choke you, Cat,
+Or kiss you?
+Really I do not know.
+Thought:  While it greatly expands on the traditional form, this poem maintains core elements like nature focus, concrete imagery, and moments of juxtaposition. Given its title, it might be viewed as an extended meditation on a single haiku-like moment, exploring the cat's nature in depth. This poem is a haiku.
+Output: haiku
+
+Example 3:
+Text: CARBON-DIOXIDE
+
+O master Americans,
+so supreme over this and all ages
+in lawfully bridging the chasm
+between any two sums with the process,
+indigenous and doubly divine,
+of addition, subtraction, multiplication, division - 
+I ask you, how is it, 
+that the tiddle-diddle-doo breathed into yonder flute
+by the trained carbon-dioxide
+of yonder wandering tatterdemalion - 
+how is it that,
+whereas you sanction the barter of
+hens for gold, pigs for gold, ducks for gold,
+by tossing your clinkety-clink
+to the merest squawk-squawk, oint-oint, quack-quack - 
+that this tiddle-diddle-doo,
+while it dosen't say in words
+audible to the ear or legible to the eye - 
+'will you drop me a penny for beauty?' - 
+how is it, I say,
+that that huckster of the flute,
+who needs but an addition of oxygen
+equal to a subtraction of carbon-dioxide,
+lest he fall and beauty fall with him,
+is thin as a worm and white as a shell?‚Äî
+have you no process for pleasure,
+or is pleasure unlawful among you?
+
+Thought: This poem employs abstract concepts and explicit questioning rather than the concrete imagery and suggestiveness typical of English haiku. The poem's satirical tone and focus on social commentary also deviate from the nature-centered, presentational mode characteristic of haiku. This poem is not a haiku.
+Output: non-haiku
+
+Example 4:
+Text: AN INCIDENT
+
+William Blake and Catherine Bourchier
+	were married in the newly rebuilt
+	Church of Battersea where the win-
+	dows were beautifully painted to imi-
+	tate real stained glass.
+Pigments or crystal, what did it matter - 
+	when Jehovah sat on a cloud of curled
+	fire over the door-way,
+And angels with silver trumpets played
+	Hosannas under the wooden groins of
+	the peaked roof!
+William and Catherine Blake left the 
+	painted windows behind in the newly
+	rebuilt Church of Battersea,
+But God and the angels went out with
+	them;
+And the angels played on their trumpets
+	under the plaster ceiling of their 
+	lodging,
+Morning, and evening, and morning,
+	forty-five round years.
+
+Has the paint faded in the windows of
+	Battersea Church, I wonder?
+Thought: The poem employs concrete imagery like "painted windows" and "angels with silver trumpets" to evoke a larger spiritual experience. It juxtaposes the physical church with Blake's enduring visions, as seen in the line "God and the angels went out with them." The poem's final question, "Has the paint faded in the windows of Battersea Church, I wonder?" creates a sense of reflection and timelessness often found in haiku. Despite its length, it maintains a focused meditation on a single moment and its lasting impact. This poem is a haiku.
+Output: haiku
+
+Example 5:
+Text: THE POND
+
+Cold, wet leaves
+Floating on moss-coloured water,
+And the croaking of frogs - 
+Cracked bell-notes in the twilight.
+Thought: This poem exhibits key features of haiku: brevity, concrete nature imagery, and a focus on a single moment. The description "Cold, wet leaves / Floating on moss-coloured water" presents a clear visual scene. The poem juxtaposes visual and auditory elements, with "the croaking of frogs" described as "Cracked bell-notes in the twilight." Given its concise, imagistic style, this poem is a haiku.
+Output: haiku
+
+Example 6:
+Text: ILLUSION
+
+Walking beside the tree-peonies,
+I saw a beetle
+Whose wings were of black lacquer
+	spotted with milk.
+I would have caught it,
+But it ran from me swiftly
+And hid under the stone lotus
+Which supports the statue of Buddha. 
+Thought: This poem captures a single, fleeting moment in nature, which is a key characteristic of haiku. It presents concrete imagery with "tree-peonies", a "beetle", and a "stone lotus".  It juxtaposes the natural world with the statue of Buddha, which is a central imagery in Orientalist aestheticism. Given its brevity and focus on a small, seemingly insignificant event with a hint of Buddhism, this poem is a haiku.
+Output: haiku
+
+Example 7:
+Text: LI T'AI PO
+
+So, Master, the wine gave you something,
+I suppose.
+
+I think I see you,
+Your silks are disarranged,
+Lolling in a green-marble pavilion
+Ogling the concubines of the Emperor's
+	court
+Who pass the door
+In yellow coats, and white jade ear-drops,
+Their hair pleated in folds like the hun-
+	dred clouds.
+I watch you,
+Hiccoughing poetry between drinks,
+Sinking as the sun sinks,
+Sleeping for twenty-four hours,
+While they peek at you,
+Giggling,
+Through the open door.
+
+You found something in the wine,
+I imagine,
+Since you could not leave it,
+Even when, after years of wandering,
+You sat in the boat with one sail,
+Travelling down the zigzag rivers
+On your way back to court.
+
+You had a dream,
+I conjecture.
+You saw something under the willow-
+	lights of the water
+Which swept you to dizziness,
+So that you toppled over the edge of the 
+	boat,
+And gasped, and became your dream.
+
+Twelve hundred years
+Or thereabouts,
+Did the wine do it?
+I would sit in the purple moonlight
+And drink three hundred cups,
+If I believed it.
+Three hundred full cups,
+After your excellent fashion,
+While in front of me
+The river dazzle ran before the moon,
+And the light flaws of the evening wind
+Scattered the notes of nightingales
+Loosely among the kuai trees.
+
+They erected a temple to you:
+"Great Doctor,
+Prince of Poetry,
+Immortal man who loved to drink."
+I detest wine,
+And I have no desire for the temple,
+Which under the circumstances,
+Is fortunate.
+But I would sacrifice even sobriety
+If, when I was thoroughly drunk,
+I could see what you saw
+Under the willow-clouded water,
+The day you died.
+Thought: This poem uses concrete details like "green-marble pavilion" and "willow-clouded water" to present a larger, more profound experience. This aligns with the suggestiveness and juxtaposition characteristic of haiku. Given its title, the poem seeks to capture the essence of Li T'ai Po's poetic vision through robust imagery. Despite its length, it maintains a focused meditation on a single subject. For those reasons, this poem is a haiku.
+Output: haiku
+
+Example 8:
+Text: AUTUMN
+
+All day I have watched the purple vine
+	leaves
+Fall into the water.
+And now in the moonlight they still fall,
+But each leaf is fringed with silver.
+Thought: This poem focuses on a single, fleeting moment in nature. It includes concrete imagery of "purple vine leaves" falling into water. It juxtaposes day and night, creating a subtle shift in perception with leaves now "fringed with silver" in the moonlight. Considering ts brevity, focus on nature, and suggestive quality, this poem is a haiku.
+Output: haiku
+
+Example 9:
+Text: THE HIGHEST BIDDER
+
+	To the highest bidder, 
+Your birthplace, Walt Whitman, 
+Under the hammer. . . .
+The old farm on Paumanok north of Huntington, 
+Its trees,
+Its leaves of grass!
+
+	Voices bid and counterbid over those ninety 
+		acres. . .
+And your own voice among them, like an element, 
+Roaring and outbidding.
+
+Thought: This poem is focused on a specific historical figure rather than a natural moment: it contains direct references to Walt Whitman (along with "leaves of grass") and his birthplace. It lacks the concrete nature imagery and suggestiveness typical of haiku, and instead, it employs explicit invocation and metaphor. This poem is not a haiku.
+Output: non-haiku
+
+Example 10:
+Text: GRAY ROOM
+
+Although you sit in a room that is gray, 
+Except for the silver 
+Of the straw-paper, 
+And pick
+At your pale white gown;
+Or lift one of the green beads
+Of your necklace,
+To let it fall;
+Or gaze at your green fan
+Printed with the red branches of a red willow;
+Or, with one finger,
+Move the leaf in the bowl - 
+The leaf that has fallen from the branches of the
+	forsythia 
+Beside you . . . 
+What is all this?
+I know how furiously your heart is beating.
+
+Thought: This poem, while containing some haiku-like elements such as concrete imagery ("green beads", "green fan", "red branches of a red willow"), exhibits a structure reminiscent of a dramatic monologue, where the imagery is used to set the scene. In addition it explicitly states emotions ("I know how furiously your heart is beating") rather than relying on suggestiveness like a haiku would. Given the dramatic nature, the multiple actions and objects described lack the singular moment, and the direct questioning ("What is all this?") also diverges from the presentational mode. Considering the absence of the typical haiku characteristics, this poem is not a haiku.
+Output: non-haiku
+
+Now read the following text and classify it into one of the following categories: non-haiku, or haiku. Do NOT make up additional classes.
+
+Text: 

@@ -1,0 +1,20 @@
+You are a helpful assistant classifying text into categories. You will be shown a text, and your task is to classify it as POS, or NEG. Narrativity refers to the degree to which a text exhibits narrative qualities. Here, it is considered as a scalar, multidimensional property of texts that is characterized by the presence of focalized, concrete agents performing actions situated at a temporal and spatial distance from the narrator. Here are some defining features of **positive** and **negative** narrativity:
+
+**Positive Predictors**:
+1. significant presence of animate entities or actors
+2. significant presence of past tense verbs
+3. concrete descriptions of time and actions
+
+**Negative Predictors**:
+1. significant presence of (abstract) nouns
+2. significant presence of present participles
+3. explicit references to thoughts and feelings
+
+Here is an example:
+
+Text: Yet the imagination which announces itself in the poem's bold opening lines is from the beginning functioning in an intellectually associative fashion and recalling some texts rather than others because of their pertinence to the poem's thematic concerns. That much is clear enough from Keats's invocation of the classical tradition as he first describes the heartache occasioned by the music welling about him. Critics often remark that Keats makes nothing of the Philomela myth in "Ode to a Nightingale." Yet the nightingale's song is so profoundly associated with Philomela, and with Aedon's lament for Itylus, as to provide a faint backdrop for Keats's poem, at least, by reminding readers that "the beautiful mythology of Greece" (Preface to Endymion) includes stories of birdsong commemorating a human pain it cannot transmute. The pain summoned by Keats's other opening glances at the classical tradition lies similarly with the issue of death.
+Output: NEG
+
+Now read the following text and classify it into one of the following categories: POS, or NEG. Your output should only contain the name of the predicted class. Do NOT make up additional classes.
+
+Text: 

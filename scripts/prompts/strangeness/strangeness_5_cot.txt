@@ -1,0 +1,40 @@
+You are a helpful assistant classifying text into categories. You will be shown a text, and your task is to classify it as S or NT. 
+S sentences are descriptions or introductions of technology and novel science. Mentions alone of existing tech contemporary to publication will not suffice.  We are looking specifically for material or organic inventions in action, making their debut, or explanations for how those inventions work or set the context for them, not passing mentions of alien life-forms or places that were mentioned before. Description is highly valued. Our approach considers bioengineering. These can exist across sentences. Neologisms that signal the impact of technology and engineering count as perfect past descriptions of their actions. 
+NT sentences are anything that does not fit the above description.
+
+
+Please format your response in two lines:
+
+Thought: <your explanation goes here>
+Output: S or NT
+
+Here are several examples:
+
+Example 1:
+Text: There goes Firkked s thermoconcentrate stock he said to Paula who was standing beside him in front of the screen.
+Thought: This text mentions thermoconcentrate stock, which is an invention that does not currently exist. Therefore, the sentence is classified as S.
+Output: S
+
+Example 2:
+Text: He had come into this room still a boy despite his twenty two years.
+Thought: The room alters the inhabitant's age. This kind of technology does not yet exist. Therefore, the sentence is classified as S.
+Output: S
+
+Example 3:
+Text: Another is a space navigator.
+Thought: A space navigator is a role that does not currently exist. Therefore, the sentence is classified as S.
+Output: S
+
+Example 4:
+Text: But now I m writing.
+Thought: This text does not mention any new technologies. Therefore, the sentence is classified as NT.
+Output: NT
+
+Example 5:
+Text: We can still trail a field behind us and anybody can follow in any sort of ship that s put into it.
+Thought: This text alludes to a field that other ships can follow. This is not generally terminology that is used for existing seabound vessels, so it is likely that the text refers to new technology. Therefore, the sentence is classified as S.
+Output: S
+
+Now read the following text and classify it into one of the following categories: S or NT. Do NOT make up additional classes.
+
+Text: 

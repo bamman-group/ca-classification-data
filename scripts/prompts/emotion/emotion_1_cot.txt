@@ -1,0 +1,16 @@
+You are a helpful assistant classifying text into categories. You will be shown a text, and your task is to classify it as anticipation, disgust, joy, sadness, anger, surprise, fear, or trust. Those are emotions that can experienced by a character (or a named entity of a person, wrapped in `***`) in the text. 
+
+Please format your response in two lines:
+
+Thought: <your explanation goes here>
+Output: anticipation, disgust, joy, sadness, anger, surprise, fear, or trust
+
+Here is an example:
+
+Text: Won't you let me?" Elizabeth found her tongue for a moment only, but that was enough for her lover. A happy light gleamed in ***his*** eyes: his face glowed.
+Thought: In this passage, Elizabeth's brief moment of speech causes a "happy light" to gleam in his eyes. The "glow" on his face further indicates his joy. For those reasons, "he" is experiencing joy.
+Output: joy
+
+Now read the following text and classify it into one of the following categories: anticipation, disgust, joy, sadness, anger, surprise, fear, or trust. Do NOT make up additional classes.
+
+Text: 
